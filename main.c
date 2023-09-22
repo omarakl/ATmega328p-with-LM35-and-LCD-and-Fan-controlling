@@ -23,7 +23,6 @@ void main(void) {
 	DDRD = 0xFF; // PORTD as input
 	DDRC = 0xFF; // PORTC as output
 	DDRB = 0xFF; // PORTB as output
-	DDRA = 0x00; // PORTA as input
 
 	LCD_init();
 	ADC_init();
